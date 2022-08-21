@@ -113,7 +113,7 @@ form {
   justify-content: center;
   align-items: center;
 }
-form input,
+
 form button {
   padding: 0.5rem;
   font-size: 2rem;
@@ -136,7 +136,7 @@ form button:hover {
   align-items: center;
 }
 .todo-input{
-  width: auto;
+  width:fit-content
 }
 .todo-list {
   min-width: 30%;
