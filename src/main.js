@@ -9,12 +9,12 @@ const Mainpage = () => {
   
     return (
         <div>
-            <center>
+            
                 <h3>Welcome {auth.currentUser.phoneNumber}</h3>
                 <button className='button' 
                   onClick={logout}>Logout</button>
                   
-            </center>
+            
             <Form/>
         </div>
     );
